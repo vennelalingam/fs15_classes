@@ -113,12 +113,10 @@ class Vehicle {
         this.wheels = wheels;
         this.color = color;
     }
-
     drive() {
         console.log("vroom vroom");
     }
 }
-
 
 class Train extends Vehicle {
     constructor() {
