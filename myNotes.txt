@@ -1,0 +1,44 @@
+Points to read for Classes / tests
+
+This is tdd : test driven data
+
+*   That is first you write the test and then you write the code to pass the test.
+*   We write the test suites in multiple ways to make sure all the test cases are passed.
+*   For testing we have different libraries like Chai (assertion library), Mocha(testing library) and Jest. 
+    Jest is a light weight testing framework or library which has both assertion or coding and testing in the same library.
+
+
+** for eg we can create 2 objects with both having different properties
+*   we can also create some methods or function inside an object.
+*   we can also call those methods on the extended class / object
+* inorder to extend the class we use a keyword "new".
+* calling those methods or functions and presetting or modyfying them on differerent classes is called "polymorphism"
+
+
+* classes are nothing but prototypes, blueprints, parents, methods, functions... 
+*   class names always starts with capital letter
+*   We use constructor method inside the class, which is nothing but a function and
+    instead of function we use the word constructor() tht is followed by paranthesis.
+* we can extend the class by using the word "extend" to add a new class to the parent.
+* from the parent class we can always inherit properties, which is called "inheritance"
+and modify or preset their values in the extended new class.
+**   whenever we extend a class, after calling the constructor, make sure we call "super method"
+*   Super method is that something that inherits all the properties from the parent to the extended class.
+
+
+* Test Cases: 1. Always first check if the prototype exists, then using the word "this" add new properties to pass the test.
+* "beforeEach", "describe", "it" are the function key words we use for writing test suites.
+* How do we break a method to write our test case
+    * Given---- When-------- then
+*Given:
+    we give an environment by intializing some value to the property to test. ie: INPUT
+*When:
+    when this happens or not happens, at this condition / requirement ie., OUTPUT
+*Then: 
+    if thats the condition or in that case "then" 
+    OUTPUT === SOMETHING (or) OUTPUT === INPUT.
+
+
+
+*    when we create new classes or extend new classes in different files make sure we add
+require in the beginning of src file and import export modules..

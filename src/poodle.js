@@ -19,7 +19,6 @@ const Dog = require("./dog");
 class Poodle extends Dog {
   constructor(name) {
     super(name); //this is calling constructor ()on Animal.js
-
     this.breed = "poodle";
   }
   lifetimeHaircuts() {
